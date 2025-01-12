@@ -16,6 +16,15 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/cart', function () {
+    return view('cart');
+});
+
+Route::get('/product', function () {
+    return view('product');
+});
+
 Route::get('/posts', function () {
     return view('post', ['title' => 'Blog', 'posts' => post::all()]);
 });
+
