@@ -122,6 +122,35 @@
         <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <h1 class="text-3xl font-bold tracking-tight text-gray-900">About Us Page</h1>
         </div>
+        <div class="container py-5">
+
+        <p class="text-muted">Learn more about who we are and what we do.</p>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>Our Story</h2>
+                <p>Founded in 2020, our mission is to connect local businesses with customers through a seamless online shopping experience. We started small, but with big dreams and a commitment to excellence, we’ve grown into a trusted platform for quality products.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="{{ asset('img/about3.png') }}" alt="Our Story" class="img-fluid rounded">
+            </div>
+        </div>
+        </div>
+            <div class="col-md-6">
+                <h2>Our Mission</h2>
+                <p>We aim to empower local businesses by providing them with a platform to reach a broader audience while ensuring customers receive high-quality products and exceptional service.</p>
+            </div>
+        <div class="display: center;">
+            <div class="col-md-6">
+                <img src="{{ asset('img/about1.png') }}" alt="Our Team" class="img-fluid rounded    ">
+           
+        </div>
+
+        <div class="text-center mt-5">
+            <h3>Our Values</h3>
+            <p class="text-muted">Trust | Innovation | Sustainability | Customer Focus</p>
+        </div>
+    </div>
     </header>
     <main>
         <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
