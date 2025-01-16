@@ -8,11 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/inistyle.css') }}">
 </head>
 <body class="h-full font-sans">
 
     <!-- <div class="bg-white"> -->
-    <div class="w-screen animated-background h-auto bg-gradient-to-r from-purple-500 via-navy-400 to-indigo-500"> 
+    <div class="w-full animated-background h-screen bg-gradient-to-r from-purple-500 via-sky-600 to-indigo-500"> 
     <header class="absolute inset-x-0 top-0 z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
