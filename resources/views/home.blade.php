@@ -8,11 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/inistyle.css') }}">
 </head>
-<body class="h-full">
-    
+<body class="h-full font-sans">
 
-    <div class="bg-white">
+    <!-- <div class="bg-white"> -->
+    <div class="w-full animated-background h-screen bg-gradient-to-r from-purple-500 via-sky-600 to-indigo-500"> 
     <header class="absolute inset-x-0 top-0 z-50">
         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
@@ -30,10 +31,10 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="/product" class="text-sm/6 font-semibold text-gray-900">Product</a>
-            <a href="/cart" class="text-sm/6 font-semibold text-gray-900">Cart</a>
-            <a href="#" class="text-sm/6 font-semibold text-gray-900">Pay</a>
-            <a href="about" class="text-sm/6 font-semibold text-gray-900">About Us</a>
+            <a href="/product" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Product</a>
+            <a href="/cart" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Cart</a>
+            <a href="#" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Pay</a>
+            <a href="about" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">About Us</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <!-- <a href="#" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a> -->
@@ -48,7 +49,7 @@
             <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
                 <span class="sr-only">Your Company</span>
-                <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+                <!-- <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt=""> -->
             </a>
             <button type="button" id="close-menu" class="-m-2.5 rounded-md p-2.5 text-gray-700">
                 <span class="sr-only">Close menu</span>
@@ -60,10 +61,10 @@
             <div class="mt-6 flow-root">
             <div class="-my-6 divide-y divide-gray-500/10">
                 <div class="space-y-2 py-6">
-                <a href="/product" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Product</a>
-                <a href="/cart" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Cart</a>
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Pay</a>
-                <a href="/about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About Us</a>
+                <a href="/product" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Product</a>
+                <a href="/cart" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Cart</a>
+                <a href="#" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Pay</a>
+                <a href="/about" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">About Us</a>
                 </div>
                 <!-- <div class="py-6">
                 <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
@@ -94,13 +95,13 @@
         </div>
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-700 ring-1 ring-gray-900/50 hover:ring-gray-900/20">
             Penasaran dengan Produk yang kami sediakan? <a href="/product" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Kunjugi disini! <span aria-hidden="true">&rarr;</span></a>
             </div>
         </div>
         <div class="text-center">
             <h1 class="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">Davest Market</h1>
-            <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Market Place yang menyediakan Produk-Produk berkelas dan bermanfaat.</p>
+            <p class="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8">Market Place yang menyediakan Produk-Produk Elektronik berkelas dan bermanfaat.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
             <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
             <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a> -->

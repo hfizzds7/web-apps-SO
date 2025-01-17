@@ -3,6 +3,7 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 const defaultTheme = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 export default {
+    darkMode: 'class', //ini baru di tambahin
     content: [
     "./resources/**/*.blade.php",
     "./resources/**/*.js",

@@ -32,13 +32,13 @@
             <div class="hidden md:block">
             <div class="ml-4 flex items-center md:ml-6">
                 <div class="relative ml-3">
-                <div>
+                <!-- <div>
                     <button type="button" @click="isOpen = !isOpen" class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     <span class="absolute -inset-1.5"></span>
                     <span class="sr-only">Open user menu</span>
                     <img class="size-8 rounded-full" src="{{ asset('img/avatar.png') }}" alt="">
                     </button>
-                </div>
+                </div> -->
 
                 <div x-show="isOpen"
                     x-transition:enter="transition ease-out duration-100 transform"
@@ -82,9 +82,9 @@
         </div>
         <div class="border-t border-gray-700 pb-3 pt-4">
             <div class="flex items-center px-5">
-            <div class="shrink-0">
+            <!-- <div class="shrink-0">
             <img class="size-8 rounded-full" src="{{ asset('img/avatar.png') }}" alt="">
-            </div>
+            </div> -->
             <!-- <div class="ml-3">
                 <div class="text-base/5 font-medium text-white">Tom Cook</div>
                 <div class="text-sm font-medium text-gray-400">tom@example.com</div>
@@ -119,12 +119,14 @@
                 <img src="{{ asset('img/ASUS ROG Strix XG32VQ.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">ASUS ROG Strix XG32VQ</h2>
                     <p class="text-gray-500 mb-4">$699,99</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
                 <img src="{{ asset('img/ASUS ROG STRIX XG49VQ.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">ASUS ROG STRIX XG49VQ</h2>
                     <p class="text-gray-500 mb-4">$799,00</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
@@ -137,6 +139,7 @@
                 <img src="{{ asset('img/Monitor Gaming LG Full HD UltraGear 31,5.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">Monitor Gaming LG Full HD UltraGear 31,5</h2>
                     <p class="text-gray-500 mb-4">$293,75</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
@@ -149,18 +152,21 @@
                 <img src="{{ asset('img/laptop-msi-thin-gf63-12ucx-intel-core-i5-9s7-16r821-1013-1.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">Laptop MSI Thin gf63 12ucx Intel Core i5</h2>
                     <p class="text-gray-500 mb-4">$631,18</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
                 <img src="{{ asset('img/lenovo-LOQ-15IRX9.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">Lenovo LOQ 15IRX9</h2>
                     <p class="text-gray-500 mb-4">$819,99</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
                 <img src="{{ asset('img/msi-katana-15-B13V.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">MSI Katana 15-B13V</h2>
                     <p class="text-gray-500 mb-4">$1.185,00</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
@@ -173,6 +179,7 @@
                 <img src="{{ asset('img/HP 14s-FQ0591AU.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">HP 14s FQ0591AU</h2>
                     <p class="text-gray-500 mb-4">$490,22</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
@@ -185,6 +192,7 @@
                 <img src="{{ asset('img/GeForce GTX 1650 GAMING X 4G.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">GeForce GTX 1650 GAMING X 4G</h2>
                     <p class="text-gray-500 mb-4">$395,00</p>
+                    <br>
                     <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">Add to Cart</button>
                 </div>
                 <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
