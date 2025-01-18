@@ -126,7 +126,7 @@
         </div>
         <div class="container py-5">
         
-        <div class="typewrite">
+        <div class="typewrite'">
                 <p>Learn more about who we are and what we do.</p>
         </div>  
 
