@@ -31,3 +31,6 @@ Route::get('/posts', function () {
     return view('post', ['title' => 'Blog', 'posts' => post::all()]);
 });
 
+Route::get('/pay', function () {
+    return view(strtolower('Pay'));
+});

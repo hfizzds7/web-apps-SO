@@ -33,7 +33,7 @@
         <div class="hidden lg:flex lg:gap-x-12">
             <a href="/product" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Product</a>
             <a href="/cart" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Cart</a>
-            <a href="#" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Pay</a>
+            <a href="/pay" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Pay</a>
             <a href="about" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">About Us</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
