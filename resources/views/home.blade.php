@@ -34,7 +34,7 @@
             <a href="/product" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Product</a>
             <a href="/cart" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Cart</a>
             <a href="/pay" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">Pay</a>
-            <a href="about" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">About Us</a>
+            <a href="/about" class="no-underline text-sm/6 font-semibold text-gray-900 block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:opacity-70 hover:text-white">About Us</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <!-- <a href="#" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a> -->
@@ -63,7 +63,7 @@
                 <div class="space-y-2 py-6">
                 <a href="/product" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Product</a>
                 <a href="/cart" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Cart</a>
-                <a href="#" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Pay</a>
+                <a href="/pay" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">Pay</a>
                 <a href="/about" class="no-underline -mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-200">About Us</a>
                 </div>
                 <!-- <div class="py-6">
