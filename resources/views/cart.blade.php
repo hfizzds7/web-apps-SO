@@ -39,7 +39,7 @@
                 <h2 class="text-xl font-bold mb-4">Your Cart</h2>
                 <div id="cart-items"></div>
                 <div class="mt-6">
-                    <h3 class="text-lg font-bold">Total: $<span id="cart-total">0.00</span></h3>
+                    <h3 class="text-lg font-bold">Total: Rp <span id="cart-total">0.00</span></h3>
                     <button onclick="proceedToCheckout()" class="mt-4 w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700">
                         Proceed to Checkout
                     </button>
@@ -67,12 +67,12 @@
                     <img src="${item.imgSrc}" alt="${item.name}" class="h-20 w-20 object-cover rounded-lg">
                     <div class="flex-1">
                         <h3 class="text-lg font-medium">${item.name}</h3>
-                        <p class="text-gray-500">$${item.price.toFixed(2)}</p>
+                        <p class="text-gray-500">Rp ${item.price.toFixed(2)}</p>
                         <p class="text-sm text-gray-500">Quantity: ${item.quantity}</p>
                     </div>
                     <div class="flex items-center space-x-2">
-                        <button onclick="decrementQuantity(${index})" class="px-3 py-1 bg-gray-200 rounded-md hover:bg-gray-300">-</button>
-                        <button onclick="incrementQuantity(${index})" class="px-3 py-1 bg-gray-200 rounded-md hover:bg-gray-300">+</button>
+                        <button onclick="decrementQuantity( ${index})" class="px-3 py-1 bg-gray-200 rounded-md hover:bg-gray-300">-</button>
+                        <button onclick="incrementQuantity( ${index})" class="px-3 py-1 bg-gray-200 rounded-md hover:bg-gray-300">+</button>
                         <button onclick="removeFromCart(${index})" class="text-red-500 hover:text-red-700">Remove</button>
                     </div>
                 </div>
