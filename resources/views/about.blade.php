@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
-    <link rel="stylesheet" href="{{ asset('public/css/typewrite.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="h-full">
@@ -120,47 +120,115 @@
         </nav>
 
 
-    <header class="bg-white shadow">
-        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">About Us Page</h1>
+        <header class="bg-white shadow">
+  <div class="py-5 team4">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-7 text-center">
+          <h3 class="mb-3">Davest Team</h3>
+          <h6 class="subtitle">
+            You can rely on our amazing features list, and our customer services will be a great experience for you without doubt and in no time.
+          </h6>
         </div>
-        <div class="container py-5">
-        
-        <div class="typewrite'">
-                <p>Learn more about who we are and what we do.</p>
-        </div>  
-
-        <div class="row mt-5">
-            <div class="col-md-6">
-                <h2>Our Story</h2>
-                <p>Founded in 2020, our mission is to connect local businesses with customers through a seamless online shopping experience. We started small, but with big dreams and a commitment to excellence, we’ve grown into a trusted platform for quality products.</p>
+      </div>
+      <div class="row">
+        <!-- Team Member 1: Haafiz -->
+        <div class="col-lg-3 mb-4">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="{{ asset('img/haafiz.png') }}" class="img-fluid rounded-circle" alt="Haafiz Dauz Syahputra" />
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('img/about3.png') }}" alt="Our Story" class="img-fluid rounded">
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Haafiz Dauz Syahputra</h5>
+                <h6 class="subtitle mb-3">10123087</h6>
+                <p>
+                  You can rely on our amazing features list, and our customer services will be a great experience.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        </div>
-            <div class="col-md-6">
-                <h2>Our Mission</h2>
-                <p>We aim to empower local businesses by providing them with a platform to reach a broader audience while ensuring customers receive high-quality products and exceptional service.</p>
+        <!-- Team Member 2: Ran -->
+        <div class="col-lg-3 mb-4">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="{{ asset('img/Ran.jpg') }}" class="img-fluid rounded-circle" alt="Randy Fawwaz Aditya" />
             </div>
-        <div class="display: center;">
-            <div class="col-md-6">
-                <img src="{{ asset('img/about1.png') }}" alt="Our Team" class="img-fluid rounded    ">
-           
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Randy Fawwaz Aditya</h5>
+                <h6 class="subtitle mb-3">10123106</h6>
+                <p>
+                  You can rely on our amazing features list, and our customer services will be a great experience.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="text-center mt-5">
-            <h3>Our Values</h3>
-            <p class="text-muted">Trust | Innovation | Sustainability | Customer Focus</p>
+        <!-- Team Member 3: Hafiz -->
+        <div class="col-lg-3 mb-4">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="{{ asset('img/Hafiz.jpg') }}" class="img-fluid rounded-circle" alt="Muhammad Hafiz Hafiyyan" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Muhammad Hafiz Hafiyyan</h5>
+                <h6 class="subtitle mb-3">10123096</h6>
+                <p>
+                  You can rely on our amazing features list, and our customer services will be a great experience.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- Team Member 4: Samuel -->
+        <div class="col-lg-3 mb-4">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="{{ asset('img/samuel.jpg') }}" class="img-fluid rounded-circle" alt="Samuel Tigor Hasiholam Sinaga" />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="pt-2">
+                <h5 class="mt-4 font-weight-medium mb-0">Samuel Tigor Hasiholam Sinaga</h5>
+                <h6 class="subtitle mb-3">10123122</h6>
+                <p>
+                  You can rely on our amazing features list, and our customer services will be a great experience.
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-behance"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </header>
-    <main>
-        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <!-- Your content -->
-        </div>
-    </main>
+  </div>
+</header>
+
     </div>
 
 </body>
