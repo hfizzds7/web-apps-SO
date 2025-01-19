@@ -35,6 +35,21 @@
 .team4 ul li a:hover {
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
+    line-height: 14px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 10 px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, 5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
 	color: #316ce8;
 }
 
@@ -50,3 +65,25 @@
     height: auto; /* Pertahankan proporsi */
 }
 
+.col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-social-facebook, .icon-social-twitter, .icon-social-instagram {
+  font-size: 24px;
+  color: #333;
+}
+
+.icon-social-facebook:hover {
+  color: #3b5998; /* Warna biru Facebook */
+}
+
+.icon-social-twitter:hover {
+  color: #00acee; /* Warna biru Twitter */
+}
+
+.icon-social-instagram:hover {
+  color: #e4405f; /* Warna merah muda Instagram */
+}

@@ -127,7 +127,7 @@
         <div class="col-md-7 text-center">
           <h3 class="mb-3">Davest Team</h3>
           <h6 class="subtitle">
-            You can rely on our amazing features list, and our customer services will be a great experience for you without doubt and in no time.
+              <b>anggota yang ikut terlibat mengerjakan aplikasi davest market ini</b>
           </h6>
         </div>
       </div>
@@ -142,9 +142,6 @@
               <div class="pt-2">
                 <h5 class="mt-4 font-weight-medium mb-0">Haafiz Dauz Syahputra</h5>
                 <h6 class="subtitle mb-3">10123087</h6>
-                <p>
-                  You can rely on our amazing features list, and our customer services will be a great experience.
-                </p>
                 <ul class="list-inline">
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -165,9 +162,6 @@
               <div class="pt-2">
                 <h5 class="mt-4 font-weight-medium mb-0">Randy Fawwaz Aditya</h5>
                 <h6 class="subtitle mb-3">10123106</h6>
-                <p>
-                  You can rely on our amazing features list, and our customer services will be a great experience.
-                </p>
                 <ul class="list-inline">
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -188,9 +182,6 @@
               <div class="pt-2">
                 <h5 class="mt-4 font-weight-medium mb-0">Muhammad Hafiz Hafiyyan</h5>
                 <h6 class="subtitle mb-3">10123096</h6>
-                <p>
-                  You can rely on our amazing features list, and our customer services will be a great experience.
-                </p>
                 <ul class="list-inline">
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -211,9 +202,6 @@
               <div class="pt-2">
                 <h5 class="mt-4 font-weight-medium mb-0">Samuel Tigor Hasiholam Sinaga</h5>
                 <h6 class="subtitle mb-3">10123122</h6>
-                <p>
-                  You can rely on our amazing features list, and our customer services will be a great experience.
-                </p>
                 <ul class="list-inline">
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-facebook"></i></a></li>
                   <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="icon-social-twitter"></i></a></li>
@@ -227,7 +215,7 @@
       </div>
     </div>
   </div>
-</header>
+</header> 
 
     </div>
 
