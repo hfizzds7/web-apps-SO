@@ -128,7 +128,7 @@
                 <img src="{{ asset('img/msi-katana-15-B13V.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">MSI Katana 15-B13V</h2>
                     <p class="text-gray-500 mb-4">$1.185,00</p>
-                    <button onclick="addToCart('MSI Katana 15-B13V', 1.185.00, 'img/msi-katana-15-B13V.png')"
+                    <button onclick="addToCart('MSI Katana 15-B13V', 1185.00, 'img/msi-katana-15-B13V.png')"
                             class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
                         Add to Cart
                     </button>
@@ -137,7 +137,7 @@
                 <img src="{{ asset('img/laptop-hp-pavilion-plus-14-ey0017au-ryzen-5-8r296pa-ar6-1.png') }}" alt="Product Image" class="w-full h-48 object-cover rounded-md mb-4">
                     <h2 class="text-lg font-medium">Laptop HP Pavilion Plus 14 ey0017au Ryzen 5 8r296pa ar6 1</h2>
                     <p class="text-gray-500 mb-4">$716,98</p>
-                    <button onclick="addToCart('Laptop HP Pavilion Plus 14 ey0017au Ryzen 5 8r296pa ar6 1', 1.185.00, 'img/laptop-hp-pavilion-plus-14-ey0017au-ryzen-5-8r296pa-ar6-1.png')"
+                    <button onclick="addToCart('Laptop HP Pavilion Plus 14 ey0017au Ryzen 5 8r296pa ar6 1', 716.98, 'img/laptop-hp-pavilion-plus-14-ey0017au-ryzen-5-8r296pa-ar6-1.png')"
                             class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200">
                         Add to Cart
                     </button>
